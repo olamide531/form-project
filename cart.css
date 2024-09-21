@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+       border: 70px;
+       border-radius: 10px;
+       padding: 25px;
+       margin-top: 70px;
+       width: 45vw;
+       height: 70vh;
+       display: flex;
+       align-items: center;
+       line-height: 30px;
+       position: relative;
+    
+}
+
+.two{
+    display: flex;
+    gap: 20pc;
+}
+.one{
+    background-color: hsl(240, 100%, 50%);
+    width: 5vw;
+    color: hsl(208, 100%, 97%);
+    border-radius: 2px;
+}
+.first{
+    display: flex;
+    gap: 20px
+}
+.main{
+    border: 50px;
+    width: 20vw;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.email-list{
+    border: 50px;
+    width: 41vw;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.three{
+    border: 50px;
+    width: 20vw;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.six{
+    border: 50px;
+    width: 34pc;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px; 
+}
+
+#third{
+    display: flex;
+    gap: 20px;
+}
+
+ .eight{
+    border: 50px;
+    width: 20vw;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+} 
+
+.fourth{
+    border: 50px;
+    width: 20vw;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}  
+.note{
+    border: 50px;
+    width: 40vw;
+    height: 12vh;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+} 
+.nine{
+    background-color: hsl(120, 100%, 25%);
+    width: 40vw;
+    height: 5vh;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+span{
+    color: hsl(160, 100%, 75%);
+}
+
+button:hover{
+    border-color: red;
+}
+.nine:hover{
+    border-color: red;
+}
+input:hover{
+    border-color: red;
+}
+
+.cospan{
+    background-color: rgb(48, 45, 45);
+    border: 50px;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 5px;
+    align-items: center;
+    line-height: 50px;
+    padding: 15px;
+    display: none;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    
+}
+.wide{
+    color: hsl(0, 0%, 100%);
+}  
+h3{
+    display: flex;
+    gap: 15px;
+}
+img{
+    border-radius: 20px;
+}
+.container{
+    display: block;
+}
+
+/* .header1 {
+    color: red;
+    display: none;
+}
+.header2{
+    color: red;
+    display: none;
+}
+.header3{
+    color: red;
+    display: none;
+}
+.header4{
+    color: red;
+    display: none;
+}
+.header5{
+    color: red;
+    display: none;
+}
+.header6 {
+    color: red;
+    display: none;
+} */
+
+
+@media screen and (max-width:768px) {
+    .first{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .email-list {
+        width: 9.6rem;
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+        border: 1px solid black;
+    }
+    
+
+    
+    
+
+    .container{
+        width: 30vw;
+        height: 80vw;
+        gap: 5px;
+    }
+
+    #third{
+        display: flex;
+        flex-direction: column;
+    }
+    .work{
+        width: 20px;
+        height: -20px;
+    }
+
+    .nine{
+        width: 25vw;
+    }
+    .two{
+        display: flex;
+        /* flex-direction: row; */
+        gap: 2pc;
+    }
+    .two, .h1{
+        font-size: 10px;
+    }
+    .note{
+        width: 9.6rem;
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+        border: 1px solid black;
+    }
+}
+
+
+ 
+
+
